@@ -1,27 +1,40 @@
 # 🔐 Password Strength Analyzer
 
-> Um verificador de força de senhas reativo, desenvolvido com **React** e **Vite**.
+> **[Clique aqui para testar o projeto online](https://caiobrunol.github.io/Password-Strength-Analyzer/)** 🚀
 
-Este projeto foi construído para demonstrar manipulação de estado em tempo real, lógica de validação com Regex e criação de interfaces modernas com feedback visual imediato para o usuário.
+Um verificador de força de senhas reativo e moderno, desenvolvido com **React**, **Vite** e **RegEx**.
+
+Este projeto demonstra a manipulação de estado em tempo real e feedback visual imediato para o usuário, simulando validações comuns em sistemas de cadastro seguros.
+
+## 🔗 Demo Online
+
+O projeto está hospedado e funcionando! Você pode testar a aplicação clicando no link abaixo:
+👉 **https://caiobrunol.github.io/Password-Strength-Analyzer/**
 
 ## 🚀 Tecnologias Utilizadas
 
 * **React.js** (Hooks, State Management)
 * **Vite** (Build tool rápida e otimizada)
 * **JavaScript (ES6+)**
-* **CSS3** (Flexbox, Variáveis, Responsividade)
-* **Git & GitHub**
+* **CSS3** (Flexbox, Variáveis, Responsividade, Dark Mode)
+* **GitHub Pages** (CI/CD para Deploy automático)
 
 ## ✨ Funcionalidades
 
 * **Análise em Tempo Real:** O cálculo é feito a cada caractere digitado (Reactive Programming).
-* **Algoritmo de Força:** Verifica comprimento, letras maiúsculas, números e caracteres especiais.
+* **Algoritmo de Força:** Verifica 4 critérios de segurança:
+  * Mínimo de 8 caracteres
+  * Letras Maiúsculas
+  * Números
+  * Símbolos Especiais
 * **Feedback Visual:**
     * Barras de progresso dinâmicas que mudam de cor (🔴 🟠 🟡 🟢).
     * Mensagens de texto condicionais ("Muito fraca" até "Forte").
 * **UI Moderna:** Interface limpa com tema Dark Mode e efeitos de foco.
 
-## 📦 Como rodar o projeto
+## 📦 Como rodar localmente
+
+Se quiser rodar o código na sua máquina:
 
 ```bash
 # 1. Clone o repositório
