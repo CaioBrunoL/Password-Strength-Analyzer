@@ -1,16 +1,37 @@
-# React + Vite
+# 🔐 Password Strength Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Um verificador de força de senhas reativo, desenvolvido com **React** e **Vite**.
 
-Currently, two official plugins are available:
+Este projeto foi construído para demonstrar manipulação de estado em tempo real, lógica de validação com Regex e criação de interfaces modernas com feedback visual imediato para o usuário.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias Utilizadas
 
-## React Compiler
+* **React.js** (Hooks, State Management)
+* **Vite** (Build tool rápida e otimizada)
+* **JavaScript (ES6+)**
+* **CSS3** (Flexbox, Variáveis, Responsividade)
+* **Git & GitHub**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Funcionalidades
 
-## Expanding the ESLint configuration
+* **Análise em Tempo Real:** O cálculo é feito a cada caractere digitado (Reactive Programming).
+* **Algoritmo de Força:** Verifica comprimento, letras maiúsculas, números e caracteres especiais.
+* **Feedback Visual:**
+    * Barras de progresso dinâmicas que mudam de cor (🔴 🟠 🟡 🟢).
+    * Mensagens de texto condicionais ("Muito fraca" até "Forte").
+* **UI Moderna:** Interface limpa com tema Dark Mode e efeitos de foco.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Como rodar o projeto
+
+```bash
+# 1. Clone o repositório
+git clone [https://github.com/CaioBrunoL/Password-Strength-Analyzer.git](https://github.com/CaioBrunoL/Password-Strength-Analyzer.git)
+
+# 2. Entre na pasta do projeto
+cd password-analyzer
+
+# 3. Instale as dependências
+npm install
+
+# 4. Rode o servidor de desenvolvimento
+npm run dev
